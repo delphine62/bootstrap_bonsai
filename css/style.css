@@ -7,7 +7,7 @@
 body{
   padding-top: 50px;
 }
-#contenu{
+.contenu{
   text-align: center;
 }
 .button{
@@ -20,13 +20,11 @@ body{
   text-align: justify;
   text-align: center;
 }
-#span{
+span{
   height: 300px;
   text-align: center;
-
-
 }
-#li ul{c
+li ul{c
   list-style-type: none;
 }
 .navbar-brand img{
@@ -54,24 +52,35 @@ background-color: darkgrey;
   background-color: #7CD5EF;
 padding:50px;
 border:50px;
--moz-border-radius:10px;
--webkit-border-radius:10px;
-border-radius:10px;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
 }
-}
+
 .header4{
   background-color: #8080BE;
   padding:50px;
   border:50px;
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  border-radius:10px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  border-radius:15px;
 }
 .header5{
   background-color: #7CD5EF;
   padding:50px;
   border:50px;
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  border-radius:10px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  border-radius:15px;
+}
+
+.creditcard{
+  background-color: darkgrey;
+  padding:5vh 0px;
+  color:white;
+  font-size: 1em;
+}
+.description{
+  text-align: center;
+  padding:50px;
 }
