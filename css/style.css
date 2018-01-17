@@ -1,6 +1,17 @@
 @font-face {
 
     font-style: italic;
+    rgb(116, 97, 162)
+}
+
+body{
+  padding-top: 50px;
+}
+#contenu{
+  text-align: center;
+}
+.button{
+
 }
 
 .header{
@@ -8,16 +19,34 @@
   height:300px;
   text-align: justify;
   text-align: center;
-
-
 }
-#div id="contenu"{
+#span{
   height: 300px;
-  text-align: justify;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+
+
 }
-#li ul{
+#li ul{c
   list-style-type: none;
+}
+.navbar-brand img{
+  height: 30px;
+  display: inline;
+}
+.navbar{
+  background-color:#7D7DAF;
+}
+
+.navbar a{
+  color: white;
+}
+
+.header1{
+  background-color: #F6F9FB;
+  height: 50px;
+}
+.header2{
+  background-color: #4C535C;
+  height: 50px;
+
 }
