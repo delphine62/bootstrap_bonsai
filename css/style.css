@@ -42,11 +42,36 @@ body{
 }
 
 .header1{
-  background-color: #F6F9FB;
+background-color: darkgrey;
   height: 50px;
 }
 .header2{
-  background-color: #4C535C;
+  background-color:#F6F9FB;
   height: 50px;
 
+}
+.header3{
+  background-color: #7CD5EF;
+padding:50px;
+border:50px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+}
+}
+.header4{
+  background-color: #8080BE;
+  padding:50px;
+  border:50px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+}
+.header5{
+  background-color: #7CD5EF;
+  padding:50px;
+  border:50px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
 }
