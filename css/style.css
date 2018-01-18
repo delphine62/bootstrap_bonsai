@@ -60,6 +60,15 @@ li ul {
   text-align: justify;
 }
 
+.description .texte {
+  padding-top: 15%;
+}
+
+.description .texte p {
+  width: 50%;
+  margin: auto;
+}
+
 .footer {
   background-color: #242629;
   color: #AAAAAA;
@@ -91,4 +100,9 @@ li ul {
   text-align: center;
   border-radius: 50%;
   box-shadow: 0px 5px rgba(125, 125, 125, 1);
+}
+
+.price {
+  color: #7070AC;
+  font-size: 50px;
 }
