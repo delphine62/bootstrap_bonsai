@@ -1,7 +1,8 @@
 @font-face {
+font-family: sans-serif;
 
-    font-style: italic;
-    rgb(116, 97, 162)
+
+    rgb:(116, 97, 162)
 }
 
 body{
@@ -16,15 +17,16 @@ body{
 
 .header{
   background-image: url(../img/payments-banner-graphic.png);
-  height:300px;
+  height:400px;
   text-align: justify;
   text-align: center;
+
 }
 span{
-  height: 300px;
+  height: 400px;
   text-align: center;
 }
-li ul{c
+li ul{
   list-style-type: none;
 }
 .navbar-brand img{
@@ -81,19 +83,25 @@ border-radius:15px;
   font-size: 1em;
 }
 .description{
+  padding: 50px;
   text-align: center;
-  padding:50px;
-}
-#infobulle{
-  background-color: lavender;
-  position: fixed;
-  right : 50px;
-  bottom: 50px;
-  font-size: 2em;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0px 5px rgba(125,125,125,1);
-}
+
+  }
+  .footer {
+    list-style-type: none;
+      background-color: darkgrey;
+  }
+  #infobulle{
+    background-color:#7D7DAF;
+    position: fixed;
+    right : 50px;
+    bottom: 50px;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 5px rgba(125,125,125,1);
+
+  }
