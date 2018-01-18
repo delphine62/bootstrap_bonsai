@@ -1,107 +1,94 @@
 @font-face {
-font-family: sans-serif;
-
-
-    rgb:(116, 97, 162)
+  font-family: sans-serif;
+  color: rgb(116, 97, 162);
 }
 
-body{
+body {
   padding-top: 50px;
 }
-.contenu{
-  text-align: center;
-}
-.button{
 
-}
+.button {}
 
-.header{
+.header {
   background-image: url(../img/payments-banner-graphic.png);
-  height:400px;
-  text-align: justify;
+  height: 400px;
   text-align: center;
-
+  padding: 170px;
+  border: 50px;
 }
-span{
+
+span {
   height: 400px;
   text-align: center;
 }
-li ul{
+
+li ul {
   list-style-type: none;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   height: 30px;
   display: inline;
 }
-.navbar{
-  background-color:#7D7DAF;
+
+.navbar {
+  background-color: #7D7DAF;
 }
 
-.navbar a{
+.navbar a {
   color: white;
 }
 
-.header1{
-background-color: darkgrey;
-  height: 50px;
-}
-.header2{
-  background-color:#F6F9FB;
-  height: 50px;
-
-}
-.header3{
+.imgGauche, .imgDroite {
   background-color: #7CD5EF;
-padding:50px;
-border:50px;
--moz-border-radius:15px;
--webkit-border-radius:15px;
-border-radius:15px;
+  padding: 50px;
+  border: 50px;
 }
 
-.header4{
+.imgDroite {
   background-color: #8080BE;
-  padding:50px;
-  border:50px;
-  -moz-border-radius:15px;
-  -webkit-border-radius:15px;
-  border-radius:15px;
-}
-.header5{
-  background-color: #7CD5EF;
-  padding:50px;
-  border:50px;
-  -moz-border-radius:15px;
-  -webkit-border-radius:15px;
-  border-radius:15px;
 }
 
-.creditcard{
-  background-color: darkgrey;
-  padding:5vh 0px;
-  color:white;
+.creditcard {
+  background-color: #4C535C;
+  height: 50px;
   font-size: 1em;
 }
-.description{
-  padding: 50px;
+
+.description {
   text-align: center;
+  text-align: justify;
+}
 
-  }
-  .footer {
-    list-style-type: none;
-      background-color: darkgrey;
-  }
-  #infobulle{
-    background-color:#7D7DAF;
-    position: fixed;
-    right : 50px;
-    bottom: 50px;
-    font-size: 2em;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0px 5px rgba(125,125,125,1);
+.footer {
+  background-color: #242629;
+  color: #AAAAAA;
+}
 
-  }
+.footer a {
+  color: #AAAAAA;
+}
+
+.footerList {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+
+.button {
+  background-color: #00B088;
+}
+
+#infobulle {
+  background-color: #7D7DAF;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 5px rgba(125, 125, 125, 1);
+}
