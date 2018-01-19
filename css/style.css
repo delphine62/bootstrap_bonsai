@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'raleway';
   font-size: 22px;
   font-family: sans-serif;
   font-style: normal;
@@ -24,6 +24,14 @@ body {
   background-image: url(../img/payments-banner-graphic.png);
   padding-top: 10%;
   padding-bottom: 10%;
+}
+
+.image {
+  border-right: 1px solid #CCCCCC;
+}
+
+.image:last-child {
+  border-right: 0px solid #CCCCCC;
 }
 
 span {
@@ -58,10 +66,17 @@ li ul {
   background-color: #8080BE;
 }
 
+.imgsrc {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
 .creditcard {
   background-color: #4C535C;
-  height: 50px;
-  font-size: 1em;
+  height: 70px;
+  padding top: 40px;
+  font-size: 2em;
   color: white;
 }
 
@@ -79,6 +94,13 @@ li ul {
   font-family: sans-serif;
   font-style: normal;
   text-align: justify;
+}
+
+.information {
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-style: normal;
 }
 
 .h1 {
@@ -131,7 +153,20 @@ li ul {
   box-shadow: 1px 4px rgba(125, 125, 125, 2);
 }
 
-.price {
+.price .dollar {
   color: #7070AC;
   font-size: 50px;
+}
+
+.price div {
+  display: inline-block;
+}
+
+.price .info p {
+  text-transform: uppercase;
+}
+
+.price .info span {
+  font-size: 0.8em;
+  color: grey;
 }
